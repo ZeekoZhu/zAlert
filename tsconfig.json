@@ -1,0 +1,13 @@
+{
+    "compilerOptions": {
+        "module": "commonjs",
+        "target": "es5",
+        "outDir": "dist",
+        "noImplicitAny": false,
+        "sourceMap": false
+    },
+    "files": [
+        "typings/index.d.ts"
+        ,"src/zalert.ts"
+    ]
+}

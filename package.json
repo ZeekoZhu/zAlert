@@ -1,0 +1,14 @@
+{
+  "name": "ZeekoAlert",
+  "version": "0.0.1",
+  "description": "A plugin that makes it easy to alert message",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "zeeko",
+  "license": "ISC",
+  "dependencies": {
+    "jquery": "^3.1.0"
+  }
+}

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="zh">
+
+<head>
+    <meta charset="UTF-8">
+    <title>zAlert</title>
+    <script src="js/jquery.min.js"></script>
+    <script src="../messageAlert.js"></script>
+    <link rel="stylesheet" href="../css/zAlert.css">
+    <script src="../dist/zalert.js"></script>
+    <script>
+        function zAlert(){
+            $.scojs_message("test",$.scojs_message.TYPE_ERROR);
+        }
+    </script>
+</head>
+
+<body>
+    <button onclick="zAlert()">test</button>
+    
+    <button style="padding-top:150px" onclick="$.zAlert('登录成功',MsgType.OK)">test</button>
+
+    <div id="block"></div>
+</body>
+</html>
